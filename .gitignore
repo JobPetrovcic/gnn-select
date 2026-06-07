@@ -1,0 +1,13 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+setup.log
+
+# Large model weights — hosted as GitHub Release assets, downloaded by setup.sh
+service/artifacts/premise_emb.pt
+service/artifacts/rand_init_ctx.pt
+
+# Lean build artifacts
+lean/gnn_lean_project/.lake/
+lean/gnn_lean_project/lake-manifest.json
